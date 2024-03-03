@@ -23,7 +23,7 @@ public class BrandConfiguration : IEntityTypeConfiguration<Brand>
 
         builder.HasIndex(indexExpression: b => b.Name, name: "UK_Brands_Name").IsUnique();
 
-        builder.HasMany(b => b.Models);
+        //builder.HasMany(b => b.Models);
 
         builder.HasQueryFilter(b => !b.DeletedDate.HasValue);
     }
