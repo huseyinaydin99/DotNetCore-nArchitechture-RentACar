@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{00FA9ADE-DF08-452F-9FA0-775CA37A29BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{00FA9ADE-DF08-452F-9FA0-775CA37A29BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{79BD624C-EAC5-4C52-89F7-AE84DC5B6815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "Persistance\Persistance.csproj", "{79BD624C-EAC5-4C52-89F7-AE84DC5B6815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9040CD03-CE99-47C8-BD8C-8B4FBC3B0160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{9040CD03-CE99-47C8-BD8C-8B4FBC3B0160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A92A2FC8-7EDB-4587-8ACB-676D7F3BE38E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{A92A2FC8-7EDB-4587-8ACB-676D7F3BE38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{281BCDDC-7718-4896-90C3-2604299F202E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{281BCDDC-7718-4896-90C3-2604299F202E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migration_Commands", "Migration_Commands", "{E21ED817-1649-4027-9E46-E96EDA598391}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Documents\Migration_Commands\mig_commands.txt = ..\..\..\..\..\Documents\Migration_Commands\mig_commands.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

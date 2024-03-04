@@ -1,4 +1,4 @@
-﻿using Application.Features.Services.Repositories;
+﻿using Application.Services.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

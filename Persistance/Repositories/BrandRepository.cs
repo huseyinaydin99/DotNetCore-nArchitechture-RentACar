@@ -1,4 +1,4 @@
-﻿using Application.Features.Services.Repositories;
+﻿using Application.Services.Repositories;
 using Core.Persistence.Repositories;
 using Domain.Entities;
 using Persistance.Contexts;
