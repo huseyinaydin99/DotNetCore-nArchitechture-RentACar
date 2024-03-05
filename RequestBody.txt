@@ -1,0 +1,28 @@
+{
+	"sort": [{
+		"field": "name",
+		"dir": "asc"
+	}],
+	"filter": {
+		"field": "name",
+		"value": "320",
+		"operator": "eq",
+		"logic": "or",
+		"filters": [
+			{
+				"field": "Fuel.Name",
+				"operator": "contains",
+				"value": "diz"
+			},
+			{
+				"field": "Fuel.Name",
+				"operator": "contains",
+				"value": "diz"
+				"filter": [
+					"field": "Fuel.Name",
+					"operator": "contains",
+					"value": "diz"
+			}
+		]
+	}
+}
