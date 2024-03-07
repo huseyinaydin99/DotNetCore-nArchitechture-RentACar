@@ -8,5 +8,5 @@ namespace Application.Features.Brands.Constants;
 
 public class BrandsMessages
 {
-    public const string BrandNameExists = "Marka adı zaten var kardeş.";
+    public const string BrandNameExists = "Marka zaten var.";
 }
