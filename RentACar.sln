@@ -23,6 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestBody", "RequestBody"
 		RequestBody.txt = RequestBody.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker_Redis_Command", "Docker_Redis_Command", "{2902F632-2522-44A6-86F3-52CAFC084568}"
+	ProjectSection(SolutionItems) = preProject
+		Docker_Redis_Command\docker_redis_command.txt = Docker_Redis_Command\docker_redis_command.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
