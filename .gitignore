@@ -361,16 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/Application/Services/Repositories/IEmailAuthenticatorRepository.cs
-/Application/Services/Repositories/IOperationClaimRepository.cs
-/Application/Services/Repositories/IOtpAuthenticatorRepository.cs
-/Application/Services/Repositories/IRefreshTokenRepository.cs
-/Application/Services/Repositories/IUserOperationClaimRepository.cs
-/Application/Services/Repositories/IUserRepository.cs
-/Persistance/Repositories/EmailAuthenticatorRepository.cs
-/Persistance/Repositories/OperationClaimRepository.cs
-/Persistance/Repositories/OtpAuthenticatorRepository.cs
-/Persistance/Repositories/RefreshTokenRepository.cs
-/Persistance/Repositories/UserOperationClaimRepository.cs
-/Persistance/Repositories/UserRepository.cs
-/Application/Services/Repositories/IUserRepository.cs
