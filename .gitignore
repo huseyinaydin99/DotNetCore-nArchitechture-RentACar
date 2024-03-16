@@ -373,3 +373,4 @@ FodyWeavers.xsd
 /Persistance/Repositories/RefreshTokenRepository.cs
 /Persistance/Repositories/UserOperationClaimRepository.cs
 /Persistance/Repositories/UserRepository.cs
+/Application/Services/Repositories/IUserRepository.cs
