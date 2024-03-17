@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <Folder Include="Features\Brands\DTOs\" />
-    <Folder Include="Features\Models\Commands\" />
+    <Folder Include="Features\Models\Commands\Create\" />
+    <Folder Include="Features\Models\Commands\Delete\" />
+    <Folder Include="Features\Models\Commands\Update\" />
     <Folder Include="Features\Models\Constants\" />
     <Folder Include="Features\Models\DTOs\" />
     <Folder Include="Features\Models\Rules\" />
+    <Folder Include="Features\Users\Commands\Delete\" />
+    <Folder Include="Features\Users\Commands\Update\" />
   </ItemGroup>
 
   <ItemGroup>
